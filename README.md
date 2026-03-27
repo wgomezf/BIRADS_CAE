@@ -12,6 +12,8 @@ The code was written in MATLAB 2025b, and two folders containing the following p
 *   [`k-folds:`](https://github.com/wgomezf/BIRADS_CAE/tree/main/Codes/k-folds) Perform $k$-fold cross-validation experiments for model training and evaluation.
 *   [`reproduce:`](https://github.com/wgomezf/BIRADS_CAE/tree/main/Codes/reproduce) The 5-fold cross-validation experiments reported in the article are reproduced.
 
+The input image for the models is the ROI$_{m}^{p}$ configuration, which masks the tumor region while preserving its aspect ratio by adding zero-padding.
+
 ## `Reference`
 
 W. Gómez-Flores and W. C. A. Pereira, "BI-RADS Classification of Breast Tumors in Ultrasound Using Convolutional Autoencoder-Based Feature Extractor", in Proceedings of the 2026 Global Medical Engineering Physics Exchanges/ Pan American Health Care Exchanges (GMEPE/PAHCE), Rio de Janeiro, Brazil, April 6-10, 2026, pp. 1-6. DOI: Pending 
