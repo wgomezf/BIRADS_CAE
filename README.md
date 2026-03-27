@@ -9,8 +9,8 @@ The source code for a convolutional autoencoder (CAE)-based feature extractor is
 ## `Source code`
 
 The code was written in MATLAB 2025b, and two folders containing the following programs are provided:
-*   [`k-folds`](https://github.com/wgomezf/BIRADS_CAE/tree/main/k-folds) Perform $k$-fold cross-validation experiments for model training and evaluation.
-*   [`reproduce`](https://github.com/wgomezf/BIRADS_CAE/tree/main/reproduce) The 5-fold cross-validation experiments reported in the article are reproduced.
+*   [`k-folds:`](https://github.com/wgomezf/BIRADS_CAE/tree/main/k-folds) Perform $k$-fold cross-validation experiments for model training and evaluation.
+*   [`reproduce:`](https://github.com/wgomezf/BIRADS_CAE/tree/main/reproduce) The 5-fold cross-validation experiments reported in the article are reproduced.
 
 ## `Reference`
 
